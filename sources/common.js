@@ -5,14 +5,12 @@ function header(){
     req.onreadystatechange = function(){
         if(req.readyState == 4){
             if(req.status == 200){
-                var data = req.responseXML;
-                document.write(data);
+                var headD = document.getElementById("head");
+                headD.innerHTML = req.responseXML;
             }
         }
     }
 
     req.open("GET","https://twelve-3.github.io/im-twelve/htmls/head.html");
-    req.send(null);
-
-
+    req.send();
 }
