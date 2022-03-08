@@ -46,11 +46,15 @@ ul{
     margin: auto;
     align: center;
     border:2px solid #00d200
+
 }
 .tabline th{
     background-color: #00C257;
+    border:2px solid #00C257;
 }
-
+.tabline td{
+    border:2px solid #00C257;
+}
 
 
 a{
