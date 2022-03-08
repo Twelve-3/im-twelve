@@ -16,6 +16,12 @@ ul{
 }
 
 .hlist{
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.hlistitem{
     list-style: none;
     display: inline-block;
 }
