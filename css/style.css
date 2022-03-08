@@ -5,7 +5,9 @@ header{
 }
 
 footer{
+    background: #00d240;
     text-align: center;
+    list-style: none;
 }
 
 .title{
@@ -26,8 +28,13 @@ ul{
     padding: 0 40px;
 }
 .link{
-    padding: 0 80px;
+    padding: 0 20px;
     font-size: 150%;
+}
+
+.recLink{
+    width:480px;
+    height:240px;
 }
 
 a{
