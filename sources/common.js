@@ -12,6 +12,7 @@ function header(){
     }
 
     req.open("GET","htmls/head.html");
+    req.send(null);
 
 
 }
