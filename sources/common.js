@@ -1,3 +1,6 @@
+
+
+/*
 function header(){
     //document.write("<header><h1 class=\"title\"><a>Twelve's website</a></h1></header>");
     $.ajax({
@@ -18,4 +21,4 @@ function footer(){
             document.write(html);
         }
     });
-}
+}*/
