@@ -10,9 +10,7 @@
     </head>
 
     <body>
-      <div id="header">
-        <script>header()</script>
-      </div>
+      <header id="head"></header>
 
       <div id="Home">
         <br>
@@ -25,5 +23,13 @@
 
         <a href="https://drive.google.com/file/d/1qnS6y6aMdkWgkQ4X53k0J45qzfd1nRuL/view?usp=sharing">Smile Snake</a>
       </div>
+
+      <footer id="foot"></footer>
+      <script>
+        $(function(){
+          $("#header").load("header.html");
+          $("#footer").load("footer.html")
+        })
+      </script>
     </body>
 </html>
