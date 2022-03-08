@@ -11,7 +11,7 @@ function header(){
         }
     }
 
-    req.open("GET","htmls/head.html");
+    req.open("GET","https://twelve-3.github.io/im-twelve/htmls/head.html");
     req.send(null);
 
 
