@@ -1,16 +1,3 @@
 function header(){
-    //document.write("<header><h1 class=\"title\"><a>Twelve's website</a></h1></header>");
-    var req = new XMLHttpRequest();
-
-    req.onreadystatechange = function(){
-        if(req.readyState == 4){
-            if(req.status == 200){
-                var headD = document.getElementById("head");
-                headD.innerHTML = req.responseXML;
-            }
-        }
-    }
-
-    req.open("GET","https://twelve-3.github.io/im-twelve/htmls/head.html");
-    req.send();
+    document.write("<header><h1 class=\"title\"><a>Twelve's website</a></h1></header>");
 }
