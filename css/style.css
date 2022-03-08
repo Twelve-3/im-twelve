@@ -1,7 +1,16 @@
 header{
+    position:fixed;
+    top:0;
+    left:0;
+    height:80px;
+    width:100%;
     background: #00d240;
     text-align: center;
     list-style: none;
+}
+
+section{
+    margin-top:100px;
 }
 
 footer{
@@ -32,26 +41,14 @@ ul{
     font-size: 150%;
 }
 
-.recLink{
-    position:relative;
-    margin: 0 100px;
-    width:520px;
-    height:100px;
-    border:3px solid #005050;
-    border-radius:10px 10px 10px 10px;
+
+.tabline{
+    margin: auto;
+    align: center;
+    border:2px solid #00d200
 }
-
-.recLink .flex{
-    position:absolute;
-    display:flex;
-    left:17.5%;
-}
-
-.recLink .rectitle{
-    text-align: center;
-    font-size:125%;
-
-    top:25%;
+.tabline th{
+    background-color: #00C257;
 }
 
 

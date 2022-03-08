@@ -3,6 +3,7 @@ function hf(){
         $("#head").load("parts/head.html");
         $("#foot").load("parts/foot.html");
       });
+      
 }
 
 document.getElementById('twitMain').addEventListener('mouseover', function(){
