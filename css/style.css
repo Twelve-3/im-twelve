@@ -3,6 +3,10 @@ header{
     list-style: none;
 }
 
+footer{
+    text-align: center;
+}
+
 .title{
     font-size: 250%;
 }
