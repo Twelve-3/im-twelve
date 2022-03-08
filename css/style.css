@@ -33,7 +33,7 @@ ul{
 }
 
 .recLink{
-    position:relative;
+    position:absolute;
     width:320px;
     height:100px;
     background-color:#00FFFF;
