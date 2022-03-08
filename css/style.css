@@ -11,3 +11,11 @@ footer{
     font-size: 250%;
 }
 
+ul{
+    list-style-type: none;
+}
+
+.hlist{
+    list-style: none;
+    display: inline-block;
+}
