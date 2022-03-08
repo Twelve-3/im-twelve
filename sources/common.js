@@ -1,6 +1,6 @@
 function hf(){
     $(function(){
-        $("#head").load("htmls/head.html");
-        $("#foot").load("htmls/foot.html");
+        $("#head").load("parts/head.html");
+        $("#foot").load("parts/foot.html");
       });
 }
