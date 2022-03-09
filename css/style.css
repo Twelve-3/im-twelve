@@ -19,6 +19,11 @@ footer{
     list-style: none;
 }
 
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+
 .title{
     font-size: 250%;
 }
