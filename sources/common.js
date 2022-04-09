@@ -1,3 +1,10 @@
+window.onload = function(){
+  $(function(){
+  var style = "<link rel=\"stylesheet\" href=\"css/animation.css\">";
+  $("head link:last").after(style);
+  });
+}
+
 function hf(){
     $(function(){
         $("#head").load("parts/head.html");
