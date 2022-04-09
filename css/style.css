@@ -15,7 +15,11 @@ header{
 }
 
 section{
-    margin:100px 5% 5% 10%;
+    margin-top:100px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:0px;
+    min-height:calc(100vh - 50px); 
 }
 
 .main{
@@ -23,9 +27,7 @@ section{
 }
 
 footer{
-    position:flex;
-    flex:1;
-    top:100vh;
+    height:100px;
     width: 100%;
     background: #00d240;
     text-align: center;
