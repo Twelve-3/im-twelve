@@ -8,3 +8,38 @@
         transform: translateY(0);
     }
 }
+
+@keyframes colorexpand {
+    from{
+        transform-origin: left;
+        opacity: 1;
+        transform:scaleX(0);
+    }
+    to{
+        transform-origin: left;
+        opacity: 1;
+        transform: scaleX(100%);
+    }
+}
+
+@keyframes strAppear {
+    0%{
+        opacity: 0;
+    }
+    35%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes expand {
+    45%{
+        transform:scaleX(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scaleX(100%);
+    }
+}

@@ -19,7 +19,7 @@ section{
     margin-left:5%;
     margin-right:5%;
     margin-bottom:0px;
-    min-height:calc(100vh - 50px); 
+    min-height:calc(88.4vh - 100px); 
 }
 
 .main{
@@ -39,6 +39,11 @@ footer{
     animation:flowAK 1.5s forwards;
 }
 
+hr{/* 線 */
+    opacity: 0;
+    animation:expand 1.5s forwards;
+}
+
 
 .flex{
     display:flex;
@@ -53,10 +58,17 @@ ul{
     list-style-type: none;
 }
 
-.hlist{
+.hlistHd{
+    display: flex;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+
+.hlistFt{
     text-align: center;
     padding: 10px 0;
-    margin: 0 auto;
+    margin: 0 0 auto 0;
 }
 
 .linkmenu{
@@ -97,5 +109,120 @@ a:hover{
 .hlistitem{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 50px;
+}
+
+.hlistHd li{
+    float:left;
+    width:120px;
+    height:90px;
+    list-style: none;
+    margin: -10px 10px;
+}
+
+.hlistHd a{
+    font-size:150%;
+    display:block;
+    width:120px;
+    height:80px;
+    background: #00F000;
+    transition:all 0.5s 0s ease;
+}
+
+.hlistHd a:hover{
+    width:120px;
+    height:120px;
+
+    background: #A0FFA0;
+    transition:all 0.5s 0s ease;
+}
+
+.twitback{
+    background:#80FFFF;
+    animation:colorexpand 0.75s forwards;
+}
+
+.discback{
+    background:#5865f2;
+    animation:colorexpand 0.75s forwards;
+}
+
+.ghback{
+    background:#9900dd;
+    animation:colorexpand 0.75s forwards;
+}
+
+.twitlink{
+    margin:0 auto;
+    transition:all 0.3s 0s ease;
+    margin-bottom:2%;
+}
+
+.twitlink a{
+    border:2px solid #00C257;
+    display:block;
+    top:0;
+    left:0;
+    width:auto;
+    height:auto;
+    min-height: 72px;
+    max-width: 760px;
+    transition:all 0.3s 0s ease;
+}
+
+.twitlink a:hover{
+    color: #00A0A0;
+    background-color: #90F0F0;
+    border:2px solid #00F2F2;
+    transition:all 0.3s 0s ease;
+}
+
+.disclink{
+    margin:0 auto;
+    transition:all 0.3s 0s ease;
+    margin-bottom:2%;
+}
+
+.disclink a{
+    border:2px solid #00C257;
+    display:block;
+    top:0;
+    left:0;
+    width:auto;
+    height:auto;
+    min-height: 72px;
+    max-width: 760px;
+    transition:all 0.3s 0s ease;
+}
+
+.disclink a:hover{
+    color: #440088;
+    background-color: #8e6bff;
+    border:2px solid #6600BB;
+    transition:all 0.3s 0s ease;
+}
+
+.ghlink{
+    margin:0 auto;
+    transition:all 0.3s 0s ease;
+    margin-bottom:2%;
+}
+
+.ghlink a{
+    border:2px solid #00C257;
+    display:block;
+    top:0;
+    left:0;
+    width:auto;
+    height:auto;
+    min-height: 72px;
+    max-width: 760px;
+    transition:all 0.3s 0s ease;
+}
+
+.ghlink a:hover{
+    color: #67016a;
+    background-color: #ed50ff;
+    border:2px solid #b800bb;
+    transition:all 0.3s 0s ease;
 }
