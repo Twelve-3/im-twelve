@@ -1,3 +1,7 @@
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 header{
     position:fixed;
     z-index:100;
@@ -30,7 +34,7 @@ footer{
 
 .flowA{/* ふわっと浮き上がる */
     opacity: 0;
-    animation:flowAK 1s forwards;
+    animation:flowAK 1.5s forwards;
 }
 
 
