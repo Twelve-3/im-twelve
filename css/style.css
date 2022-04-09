@@ -1,5 +1,6 @@
 header{
     position:fixed;
+    z-index:100;
     top:0;
     left:0;
     height:80px;
@@ -10,7 +11,11 @@ header{
 }
 
 section{
-    margin-top:100px;
+    margin:100px 5% 5% 10%;
+}
+
+.main{
+
 }
 
 footer{
@@ -18,6 +23,23 @@ footer{
     text-align: center;
     list-style: none;
 }
+
+.flowA{/* ふわっと浮き上がる */
+    opacity: 0;
+    animation:flowAK 1s forwards;
+}
+
+@keyframes flowAK {
+    from{
+        opacity: 0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .flex{
     display:flex;
@@ -63,16 +85,14 @@ ul{
 
 
 a{
-    color: #000030;
+    transition: color 0.35s ease 0s;
+    color: #000040;
     text-decoration: none;
 }
 a:hover{
-    color: #00A0FF;
-    text-decoration: none;
-}
-a:visited{
-    color: #000030;
-    text-decoration: none;
+    transition: color 0.25s ease 0s;
+    color: #00FF00;
+    text-decoration: inherit;
 }
 
 .hlistitem{
