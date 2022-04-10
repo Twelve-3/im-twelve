@@ -35,6 +35,9 @@
 }
 
 @keyframes expand {
+    0%{
+        transform:scaleX(0);
+    }
     45%{
         transform:scaleX(0);
     }
