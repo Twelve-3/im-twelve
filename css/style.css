@@ -14,10 +14,21 @@ header{
     list-style: none;
 }
 
+body{
+    user-select:none;
+    -webkit-user-drag: none;
+    background-color: #A0FFA0;
+}
+body img{
+    -webkit-user-drag: none;
+}
+
 section{
+    background-color: #FFFFFF;
+    padding: 1% 5%;
     margin-top:100px;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:2%;
+    margin-right:2%;
     margin-bottom:0px;
     min-height:calc(88.4vh - 100px); 
 }
@@ -42,6 +53,46 @@ footer{
 hr{/* 線 */
     opacity: 0;
     animation:expand 1.5s forwards;
+}
+
+hr .left{
+    text-align: left;
+    opacity:0;
+    transform-origin: left;
+    animation:expandL 1.5s forwards;
+}
+
+details{
+    height:25px;
+    margin-bottom: 5%;
+    transition:all .5s;
+}
+details[open]{
+    height:auto;
+    background-color: #00A0A0;
+    transition:all .5s;
+}
+
+.flexD{
+    margin:3%;
+    display:flex;
+    justify-content: center; 
+    font-size:125%;
+}
+
+.fix{
+    margin:0 5%;
+}
+
+.fix a{
+    transition: color 0.35s ease 0s;
+    color: #0000A0;
+    text-decoration: none;
+}
+.fix a:hover{
+    transition: color 0.25s ease 0s;
+    color: #FFFFFF;
+    text-decoration: inherit;
 }
 
 
@@ -102,7 +153,7 @@ a{
 }
 a:hover{
     transition: color 0.25s ease 0s;
-    color: #00FF00;
+    color: #00CC00;
     text-decoration: inherit;
 }
 
