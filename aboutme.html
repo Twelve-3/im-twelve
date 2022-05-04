@@ -31,7 +31,26 @@
           </tr>
           <tr>
             <th>生年月日(年齢)</th>
-            <td>2005年5月7日(16)</td>
+            <td>2005年5月7日(
+              <script language="JavaScript">
+                document.open();
+                  const Year = 2005;
+                  const Month = 5;
+                  const Day = 7;
+
+                  var today = new Date();
+                  var nowBirth = new Date(today.getFullYear(), Month-1, Day);
+                  var age = today.getFullYear() - Year;
+                  if(today < nowBirth){
+                    age--;
+                  }
+                  
+                  document.write(age);
+                document.close();
+
+              </script>
+              
+              )</td>
           </tr>
           <tr>
             <th>性別</th>
